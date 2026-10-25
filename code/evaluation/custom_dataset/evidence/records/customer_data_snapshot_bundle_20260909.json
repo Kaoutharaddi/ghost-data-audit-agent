@@ -1,0 +1,25 @@
+{
+  "snapshots": [
+    {
+      "captured_at": "2026-09-09T08:30:00Z",
+      "data_store": "legal_service",
+      "collection": "retained_order_records",
+      "records": [
+        {
+          "resource_id": "legal_hold_9103",
+          "subject_reference": "user_903",
+          "order_reference": "ORD-20269103",
+          "retention_reason": "payment_dispute_and_tax_record",
+          "retained_until": "2031-12-31T23:59:59Z"
+        },
+        {
+          "resource_id": "legal_hold_9104",
+          "subject_reference": "user_904",
+          "order_reference": "ORD-20269104",
+          "retention_reason": "tax_record",
+          "retained_until": "2030-06-30T23:59:59Z"
+        }
+      ]
+    }
+  ]
+}

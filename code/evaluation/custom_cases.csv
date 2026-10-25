@@ -1,0 +1,4 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+case_9001,mandla.m4548@outlook.com,2026-08-16T12:00:00Z,NOT_STARTED,2026-08-19T12:00:00Z,2026-08-27T12:00:00Z,Bitte senden Sie mir eine Kopie meiner Daten. Mein Konto soll aktiv bleiben.
+case_9002,n.petrescu@yahoo.com,2026-08-31T15:42:00Z,COMPLETE,2026-09-02T10:08:00Z,2026-09-18T12:25:00Z,I changed my email a while ago. Please delete my account and anything still tied to this older address.
+case_9004,marek.zielinski@gmail.com,2026-08-23T07:00:00Z,COMPLETE,2026-08-24T07:00:00Z,2026-09-06T07:00:00Z,Je demande la suppression définitive de mon compte et des données associées.

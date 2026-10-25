@@ -1,0 +1,652 @@
+{
+  "runs": [
+    {
+      "started": "2026-10-24T19:45:52Z",
+      "calls": [
+        {
+          "file_id": "evidence_04",
+          "file": "account_admin_console_20260926.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdv9WZLHyAtESCitLDB",
+          "stop_reason": "end_turn",
+          "input_tokens": 3439,
+          "output_tokens": 611,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:45:58Z",
+          "cost_usd": 0.025976
+        },
+        {
+          "file_id": "evidence_09",
+          "file": "search_index_inspector_20260901.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdvdpthXxjRQNuqDycy",
+          "stop_reason": "end_turn",
+          "input_tokens": 3244,
+          "output_tokens": 685,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:46:06Z",
+          "cost_usd": 0.026676
+        },
+        {
+          "file_id": "evidence_14",
+          "file": "connector_management_console_20260807.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdwAcZjpdA19AaG8WDN",
+          "stop_reason": "end_turn",
+          "input_tokens": 3374,
+          "output_tokens": 456,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:46:11Z",
+          "cost_usd": 0.022616
+        },
+        {
+          "file_id": "evidence_18",
+          "file": "account_history_report_20260718.pdf",
+          "sent_as": "pdf-as-text",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdwbX2Lgnnu28pa5eXx",
+          "stop_reason": "end_turn",
+          "input_tokens": 1048,
+          "output_tokens": 272,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:46:15Z",
+          "cost_usd": 0.009632
+        },
+        {
+          "file_id": "evidence_19",
+          "file": "analytics_profile_view_20260713.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdwsbQdn48TfWH4rAcF",
+          "stop_reason": "end_turn",
+          "input_tokens": 3374,
+          "output_tokens": 381,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:46:20Z",
+          "cost_usd": 0.021116
+        },
+        {
+          "file_id": "evidence_23",
+          "file": "customer_export_console_20260618.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdxE7SNb5Vp4VnCuaKn",
+          "stop_reason": "end_turn",
+          "input_tokens": 3244,
+          "output_tokens": 684,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:46:26Z",
+          "cost_usd": 0.026656
+        },
+        {
+          "file_id": "evidence_27",
+          "file": "legal_retention_register_20260529.pdf",
+          "sent_as": "pdf-as-text",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdxgwUq9apNB5n15soE",
+          "stop_reason": "end_turn",
+          "input_tokens": 1163,
+          "output_tokens": 225,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:46:29Z",
+          "cost_usd": 0.009152
+        },
+        {
+          "file_id": "evidence_28",
+          "file": "support_ticket_console_20260524.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdxvSphPNy8TkznZ3vN",
+          "stop_reason": "end_turn",
+          "input_tokens": 3439,
+          "output_tokens": 326,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:46:34Z",
+          "cost_usd": 0.020276
+        },
+        {
+          "file_id": "evidence_32",
+          "file": "backup_restore_console_20260429.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdyFEg3LoX2jpcbyxq6",
+          "stop_reason": "end_turn",
+          "input_tokens": 3374,
+          "output_tokens": 1167,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:46:45Z",
+          "cost_usd": 0.036836
+        },
+        {
+          "file_id": "evidence_37",
+          "file": "security_audit_explorer_20260905.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdz4CSdtidx2iBLJzyQ",
+          "stop_reason": "end_turn",
+          "input_tokens": 3244,
+          "output_tokens": 850,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:46:54Z",
+          "cost_usd": 0.029976
+        },
+        {
+          "file_id": "evidence_42",
+          "file": "deleted_account_reference_20260310.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMdzjaXyCRT8YA5tCQoN",
+          "stop_reason": "end_turn",
+          "input_tokens": 3244,
+          "output_tokens": 357,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:46:59Z",
+          "cost_usd": 0.020116
+        },
+        {
+          "file_id": "evidence_46",
+          "file": "object_storage_browser_20260213.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMe16WNhGRJN9vRdK6Q3",
+          "stop_reason": "end_turn",
+          "input_tokens": 3374,
+          "output_tokens": 511,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:47:05Z",
+          "cost_usd": 0.023716
+        },
+        {
+          "file_id": "evidence_55",
+          "file": "security_retention_extract.pdf",
+          "sent_as": "pdf-as-text",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMe1Y2n1xGDDaDQtBhjw",
+          "stop_reason": "end_turn",
+          "input_tokens": 961,
+          "output_tokens": 233,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:47:08Z",
+          "cost_usd": 0.008504
+        },
+        {
+          "file_id": "evidence_58",
+          "file": "delivery_correction_attachment.pdf",
+          "sent_as": "pdf-as-text",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMe1kf3b65jD3RF8e27e",
+          "stop_reason": "end_turn",
+          "input_tokens": 1066,
+          "output_tokens": 388,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:47:13Z",
+          "cost_usd": 0.012024
+        },
+        {
+          "file_id": "evidence_60",
+          "file": "marketing_profile_console.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMe26jJ4gbvzSz7nhS32",
+          "stop_reason": "end_turn",
+          "input_tokens": 2426,
+          "output_tokens": 367,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T19:47:17Z",
+          "cost_usd": 0.017044
+        }
+      ],
+      "errors": [],
+      "totals": {
+        "calls": 15,
+        "model": "claude-opus-5-5",
+        "input_tokens": 40014,
+        "output_tokens": 7513,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cost_usd": 0.310316,
+        "pricing_note": "USD list price per million tokens (input, output): (4.0, 20.0)"
+      },
+      "out": "code/data/media_extractions.api.json"
+    },
+    {
+      "started": "2026-10-24T20:00:04Z",
+      "out": "code/data/media_extractions.api_v2.json",
+      "calls": [],
+      "errors": [
+        {
+          "file_id": "evidence_04",
+          "file": "account_admin_console_20260926.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_09",
+          "file": "search_index_inspector_20260901.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_14",
+          "file": "connector_management_console_20260807.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_18",
+          "file": "account_history_report_20260718.pdf",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_19",
+          "file": "analytics_profile_view_20260713.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_23",
+          "file": "customer_export_console_20260618.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_27",
+          "file": "legal_retention_register_20260529.pdf",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_28",
+          "file": "support_ticket_console_20260524.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_32",
+          "file": "backup_restore_console_20260429.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_37",
+          "file": "security_audit_explorer_20260905.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_42",
+          "file": "deleted_account_reference_20260310.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_46",
+          "file": "object_storage_browser_20260213.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_55",
+          "file": "security_retention_extract.pdf",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_58",
+          "file": "delivery_correction_attachment.pdf",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_60",
+          "file": "marketing_profile_console.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        }
+      ],
+      "totals": {
+        "calls": 0,
+        "model": "claude-opus-5-5",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cost_usd": 0,
+        "pricing_note": "USD list price per million tokens (input, output): (4.0, 20.0)"
+      }
+    },
+    {
+      "started": "2026-10-24T20:00:12Z",
+      "out": "code/data/media_extractions.api_v2.json",
+      "calls": [],
+      "errors": [
+        {
+          "file_id": "evidence_04",
+          "file": "account_admin_console_20260926.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_09",
+          "file": "search_index_inspector_20260901.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_14",
+          "file": "connector_management_console_20260807.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_18",
+          "file": "account_history_report_20260718.pdf",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_19",
+          "file": "analytics_profile_view_20260713.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_23",
+          "file": "customer_export_console_20260618.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_27",
+          "file": "legal_retention_register_20260529.pdf",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_28",
+          "file": "support_ticket_console_20260524.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_32",
+          "file": "backup_restore_console_20260429.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_37",
+          "file": "security_audit_explorer_20260905.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_42",
+          "file": "deleted_account_reference_20260310.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_46",
+          "file": "object_storage_browser_20260213.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_55",
+          "file": "security_retention_extract.pdf",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_58",
+          "file": "delivery_correction_attachment.pdf",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        },
+        {
+          "file_id": "evidence_60",
+          "file": "marketing_profile_console.png",
+          "error": "TypeError('\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"')"
+        }
+      ],
+      "totals": {
+        "calls": 0,
+        "model": "claude-opus-5-5",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cost_usd": 0,
+        "pricing_note": "USD list price per million tokens (input, output): (4.0, 20.0)"
+      }
+    },
+    {
+      "started": "2026-10-24T20:00:55Z",
+      "out": "code/data/media_extractions.api_v2.json",
+      "calls": [
+        {
+          "file_id": "evidence_04",
+          "file": "account_admin_console_20260926.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf4i7hemhXpKS71DNt4",
+          "stop_reason": "end_turn",
+          "input_tokens": 3974,
+          "output_tokens": 558,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:01:01Z",
+          "cost_usd": 0.027056
+        },
+        {
+          "file_id": "evidence_09",
+          "file": "search_index_inspector_20260901.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf59QUViLMHRPwgpih9",
+          "stop_reason": "end_turn",
+          "input_tokens": 3779,
+          "output_tokens": 750,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:01:08Z",
+          "cost_usd": 0.030116
+        },
+        {
+          "file_id": "evidence_14",
+          "file": "connector_management_console_20260807.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf5ej6RkX4wR1ZkFEjE",
+          "stop_reason": "end_turn",
+          "input_tokens": 3909,
+          "output_tokens": 654,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:01:14Z",
+          "cost_usd": 0.028716
+        },
+        {
+          "file_id": "evidence_18",
+          "file": "account_history_report_20260718.pdf",
+          "sent_as": "pdf-as-text",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf69hrf2D6iT2LnV5Qt",
+          "stop_reason": "end_turn",
+          "input_tokens": 1583,
+          "output_tokens": 388,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:01:19Z",
+          "cost_usd": 0.014092
+        },
+        {
+          "file_id": "evidence_19",
+          "file": "analytics_profile_view_20260713.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf6VEcnGprED4xzBhP3",
+          "stop_reason": "end_turn",
+          "input_tokens": 3909,
+          "output_tokens": 430,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:01:24Z",
+          "cost_usd": 0.024236
+        },
+        {
+          "file_id": "evidence_23",
+          "file": "customer_export_console_20260618.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf6tUbjfSA9sr21Tw1c",
+          "stop_reason": "end_turn",
+          "input_tokens": 3779,
+          "output_tokens": 966,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:01:33Z",
+          "cost_usd": 0.034436
+        },
+        {
+          "file_id": "evidence_27",
+          "file": "legal_retention_register_20260529.pdf",
+          "sent_as": "pdf-as-text",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf7WN6rSthE9RjLbCzq",
+          "stop_reason": "end_turn",
+          "input_tokens": 1698,
+          "output_tokens": 211,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:01:36Z",
+          "cost_usd": 0.011012
+        },
+        {
+          "file_id": "evidence_28",
+          "file": "support_ticket_console_20260524.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf7ib4XnKChgfujtt6b",
+          "stop_reason": "end_turn",
+          "input_tokens": 3974,
+          "output_tokens": 335,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:01:40Z",
+          "cost_usd": 0.022596
+        },
+        {
+          "file_id": "evidence_32",
+          "file": "backup_restore_console_20260429.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf82rQpfLrWeNzjY7Jg",
+          "stop_reason": "end_turn",
+          "input_tokens": 3909,
+          "output_tokens": 1056,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:01:50Z",
+          "cost_usd": 0.036756
+        },
+        {
+          "file_id": "evidence_37",
+          "file": "security_audit_explorer_20260905.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf8m1weAVcS896D1A5Q",
+          "stop_reason": "end_turn",
+          "input_tokens": 3779,
+          "output_tokens": 1015,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:01:59Z",
+          "cost_usd": 0.035416
+        },
+        {
+          "file_id": "evidence_42",
+          "file": "deleted_account_reference_20260310.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf9S1yJJvtFNJL8HEho",
+          "stop_reason": "end_turn",
+          "input_tokens": 3779,
+          "output_tokens": 280,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:02:03Z",
+          "cost_usd": 0.020716
+        },
+        {
+          "file_id": "evidence_46",
+          "file": "object_storage_browser_20260213.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMf9j59ZPKk5ZtWobtgk",
+          "stop_reason": "end_turn",
+          "input_tokens": 3909,
+          "output_tokens": 663,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:02:10Z",
+          "cost_usd": 0.028896
+        },
+        {
+          "file_id": "evidence_55",
+          "file": "security_retention_extract.pdf",
+          "sent_as": "pdf-as-text",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMfAEXSshKBRDmiRH3qd",
+          "stop_reason": "end_turn",
+          "input_tokens": 1496,
+          "output_tokens": 261,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:02:13Z",
+          "cost_usd": 0.011204
+        },
+        {
+          "file_id": "evidence_58",
+          "file": "delivery_correction_attachment.pdf",
+          "sent_as": "pdf-as-text",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMfAUwcdHbjuU1eTtucu",
+          "stop_reason": "end_turn",
+          "input_tokens": 1601,
+          "output_tokens": 614,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:02:19Z",
+          "cost_usd": 0.018684
+        },
+        {
+          "file_id": "evidence_60",
+          "file": "marketing_profile_console.png",
+          "sent_as": "image",
+          "model": "claude-opus-5-5",
+          "message_id": "msg_011CgMfAwZkJFUGJb4s3vvw2",
+          "stop_reason": "end_turn",
+          "input_tokens": 2961,
+          "output_tokens": 369,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "at": "2026-10-24T20:02:24Z",
+          "cost_usd": 0.019224
+        }
+      ],
+      "errors": [],
+      "totals": {
+        "calls": 15,
+        "model": "claude-opus-5-5",
+        "input_tokens": 48039,
+        "output_tokens": 8550,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cost_usd": 0.363156,
+        "pricing_note": "USD list price per million tokens (input, output): (4.0, 20.0)"
+      }
+    }
+  ],
+  "totals_all_runs": {
+    "calls": 30,
+    "model": "claude-opus-5-5",
+    "input_tokens": 88053,
+    "output_tokens": 16063,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cost_usd": 0.673472,
+    "pricing_note": "USD list price per million tokens (input, output): (4.0, 20.0)"
+  }
+}

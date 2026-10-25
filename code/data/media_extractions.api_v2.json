@@ -1,0 +1,572 @@
+{
+  "_about": "Produced by code/ghost/media.py with claude-opus-5-5 via the Anthropic API (run started 2026-10-24T20:00:55Z). Raw model output parsed as JSON; not reviewed by hand.",
+  "account_admin_console_20260926.png": {
+    "summary": "Customer Operations profile page for Haruka Sato (user_11, account_5762, Silver tier, JP market). It shows email, phone, signup channel, preferred language and last contact, plus two orders: ORD-20265762 delivered and ORD-20265518 returned. A details panel lists the default address and a support reference CS-8538 / support_9538, and an activity timeline is included.",
+    "references": [
+      "user_11",
+      "account_5762",
+      "haruka.s1838@zoho.com",
+      "ORD-20265762",
+      "ORD-20265518",
+      "CS-8538",
+      "support_9538"
+    ],
+    "records": [
+      {
+        "system": "account_service",
+        "resource_id": "account_5762",
+        "present": true,
+        "category": "USER_PROFILE",
+        "pii": {
+          "name": "Haruka Sato",
+          "email": "haruka.s1838@zoho.com",
+          "phone": "+81 90 7610 2507",
+          "user_ref": "user_11"
+        },
+        "keys": [
+          "haruka.s1838@zoho.com",
+          "user_11"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      }
+    ]
+  },
+  "search_index_inspector_20260901.png": {
+    "summary": "Northstar Shop Search Console, Customer Search on index customer_directory_v3 (prod-eu), executed 01 Sep 2026 06:00:14 UTC for query email:g.silva76@gmail.com. It returned 2 hits. search_428 is Gabriel Silva, g.silva76@gmail.com, user_13, score 9.84, indexed 2026-09-01T05:58:21Z, and its raw document is shown. search_1874 is g.silva76.jr@gmail.com with no display name or customer reference, score 4.12, indexed 05:55:03 UTC. The activity log also lists earlier queries for customer_reference:user_9842 and display_name:\"Aditi Jain\".",
+    "references": [
+      "g.silva76@gmail.com",
+      "g.silva76.jr@gmail.com",
+      "user_13",
+      "user_9842",
+      "search_428",
+      "search_1874"
+    ],
+    "records": [
+      {
+        "system": "search_service",
+        "resource_id": "search_428",
+        "present": true,
+        "category": "SEARCH_INDEX_ENTRY",
+        "pii": {
+          "name": "Gabriel Silva",
+          "email": "g.silva76@gmail.com",
+          "user_ref": "user_13"
+        },
+        "keys": [
+          "g.silva76@gmail.com",
+          "user_13"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      },
+      {
+        "system": "search_service",
+        "resource_id": "search_1874",
+        "present": true,
+        "category": "SEARCH_INDEX_ENTRY",
+        "pii": {
+          "email": "g.silva76.jr@gmail.com"
+        },
+        "keys": [
+          "g.silva76.jr@gmail.com"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      }
+    ]
+  },
+  "connector_management_console_20260807.png": {
+    "summary": "BridgeOps Connections topology view for Northstar Shop (production, eu-west, 07 Aug 2026 08:00 UTC). It lists 4 continuous connectors. data_flow_1121 syncs to customer_analytics_warehouse with selector jain.aditi@gmail.com and is shown as Healthy (last response 200 OK, 124 events delivered at 07:59:42). data_flow_9846 syncs to customer_analytics_warehouse with selector lucia-torres@gmail.com in continuous mode. The other two rows, Order notifications and Delivery tracking, have no resource ids.",
+    "references": [
+      "data_flow_1121",
+      "data_flow_9846",
+      "jain.aditi@gmail.com",
+      "lucia-torres@gmail.com"
+    ],
+    "records": [
+      {
+        "system": "integration_service",
+        "resource_id": "data_flow_1121",
+        "present": true,
+        "category": "DATA_FLOW",
+        "pii": {
+          "email": "jain.aditi@gmail.com"
+        },
+        "keys": [
+          "jain.aditi@gmail.com"
+        ],
+        "status": "",
+        "enabled": true,
+        "restore_allowed": null
+      },
+      {
+        "system": "integration_service",
+        "resource_id": "data_flow_9846",
+        "present": true,
+        "category": "DATA_FLOW",
+        "pii": {
+          "email": "lucia-torres@gmail.com"
+        },
+        "keys": [
+          "lucia-torres@gmail.com"
+        ],
+        "status": "",
+        "enabled": true,
+        "restore_allowed": null
+      }
+    ]
+  },
+  "account_history_report_20260718.pdf": {
+    "summary": "Northstar Shop customer statement NST-2026-0718-1842 for Ingrid Dahl (user_18, ingrid.dahl@outlook.com) covering order ORD-20261260. The order was for one smart desk lamp (SKU LAMP-SD-04) totalling EUR 71.93, paid by Visa ending 4821. It was ordered 08 Jul 2026, dispatched 10 Jul and delivered 14 Jul to 24 Fjordgata, Trondheim. The statement shows no data resource with a resource id.",
+    "references": [
+      "NST-2026-0718-1842",
+      "user_18",
+      "ingrid.dahl@outlook.com",
+      "ORD-20261260"
+    ],
+    "records": []
+  },
+  "analytics_profile_view_20260713.png": {
+    "summary": "Pulse Analytics user profile page in Northstar Shop for Omar Darwish (user_20, analytics_7438, darwish.omar@icloud.com), covering the last 90 days. The profile shows 12 sessions, 19 products viewed, 2 completed orders, USD 167.42 in revenue, a 67%/33% mobile/desktop split and organic search acquisition. The event timeline lists 5 events on 13 Jul, including an order completed for a Ceramic coffee set at USD 84.21. Profile attributes: market AE, returning shopper, interest in coffee & dining, first seen 21 Apr 2026, last activity 13 Jul 2026 14:22 UTC.",
+    "references": [
+      "user_20",
+      "analytics_7438",
+      "darwish.omar@icloud.com"
+    ],
+    "records": [
+      {
+        "system": "analytics_platform",
+        "resource_id": "analytics_7438",
+        "present": true,
+        "category": "ANALYTICS_PROFILE",
+        "pii": {
+          "name": "Omar Darwish",
+          "email": "darwish.omar@icloud.com",
+          "user_ref": "user_20"
+        },
+        "keys": [
+          "darwish.omar@icloud.com",
+          "user_20"
+        ],
+        "status": "IDENTIFIABLE",
+        "enabled": null,
+        "restore_allowed": null
+      }
+    ]
+  },
+  "customer_export_console_20260618.png": {
+    "summary": "Northstar Shop Customer Download Center, Data exports page, listing 4 export jobs. export_1261 (marcus.lee@northstar.shop) is Collecting. export_1260 (ingrid.dahl@outlook.com) is Ready. export_1259 (sara.kim@northstar.shop) is Packaging. export_1258 (daniel.park@northstar.shop) is Ready. The detail panel for export_1260 shows: created 18 Jun 2026 06:42 UTC, expires 25 Jun 2026 06:42 UTC, size 18.4 MB, 0 downloads, includes Profile, Orders and Saved addresses. Its activity log ends with 'Ready for download'.",
+    "references": [
+      "export_1261",
+      "export_1260",
+      "export_1259",
+      "export_1258",
+      "customer_export_1261.zip",
+      "customer_export_1260.zip",
+      "customer_export_1259.zip",
+      "customer_export_1258.zip",
+      "marcus.lee@northstar.shop",
+      "ingrid.dahl@outlook.com",
+      "sara.kim@northstar.shop",
+      "daniel.park@northstar.shop"
+    ],
+    "records": [
+      {
+        "system": "export_service",
+        "resource_id": "export_1261",
+        "present": true,
+        "category": "USER_EXPORT",
+        "pii": {
+          "email": "marcus.lee@northstar.shop"
+        },
+        "keys": [
+          "marcus.lee@northstar.shop"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      },
+      {
+        "system": "export_service",
+        "resource_id": "export_1260",
+        "present": true,
+        "category": "USER_EXPORT",
+        "pii": {
+          "email": "ingrid.dahl@outlook.com"
+        },
+        "keys": [
+          "ingrid.dahl@outlook.com"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      },
+      {
+        "system": "export_service",
+        "resource_id": "export_1259",
+        "present": true,
+        "category": "USER_EXPORT",
+        "pii": {
+          "email": "sara.kim@northstar.shop"
+        },
+        "keys": [
+          "sara.kim@northstar.shop"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      },
+      {
+        "system": "export_service",
+        "resource_id": "export_1258",
+        "present": true,
+        "category": "USER_EXPORT",
+        "pii": {
+          "email": "daniel.park@northstar.shop"
+        },
+        "keys": [
+          "daniel.park@northstar.shop"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      }
+    ]
+  },
+  "legal_retention_register_20260529.pdf": {
+    "summary": "Finance Operations register of disputed orders and tax records for May 2026 (generated 29 May 2026, classification Internal, owner Finance Records). It lists six order entries, each with a customer key, dispute type, date, amount, a retain-until date of 2033 and a finance owner's initials. No data resource with a resource id is displayed.",
+    "references": [
+      "ORD-20264118",
+      "user_08",
+      "ORD-20264207",
+      "user_12",
+      "ORD-20264319",
+      "user_17",
+      "ORD-20264402",
+      "user_21",
+      "ORD-20264511",
+      "user_24",
+      "ORD-20264600",
+      "user_29"
+    ],
+    "records": []
+  },
+  "support_ticket_console_20260524.png": {
+    "summary": "Helpline Console view of support ticket CS-5034 'Where is my delivery?' (support_1034) for customer Kofi Ageyman (kagyeman8947@fastmail.com), assigned to Maya Chen. The conversation has 4 messages about order ORD-20265034 (running shoes, in transit with SwiftShip, tracking SWF-884103, expected 26 May 2026).",
+    "references": [
+      "CS-5034",
+      "support_1034",
+      "kagyeman8947@fastmail.com",
+      "ORD-20265034",
+      "SWF-884103"
+    ],
+    "records": [
+      {
+        "system": "support_platform",
+        "resource_id": "support_1034",
+        "present": true,
+        "category": "SUPPORT_MESSAGE",
+        "pii": {
+          "name": "Kofi Agyeman",
+          "email": "kagyeman8947@fastmail.com"
+        },
+        "keys": [
+          "kagyeman8947@fastmail.com"
+        ],
+        "status": "IDENTIFIABLE",
+        "enabled": null,
+        "restore_allowed": null
+      }
+    ]
+  },
+  "backup_restore_console_20260429.png": {
+    "summary": "Vault Recovery Manager screen for Northstar Shop showing customer-platform archives (weekly snapshots, Production). The Archives table lists four backups created 26 Apr 02:00. All are AES-256 encrypted, in the Archive tier, and show no restore block. The detail panel for backup_9287 (account areed1433@gmail.com, eu-west-1) shows a verified checksum, last drill 29 Mar 2026 and retention end 26 Jul 2026. Recent activity covers restores of backup_9286 and backup_9281 and a checksum verification.",
+    "references": [
+      "backup_9291",
+      "backup_9288",
+      "backup_9287",
+      "backup_9286",
+      "backup_9281",
+      "bluepeakco@outlook.com",
+      "miller.logistics@company.com",
+      "areed1433@gmail.com",
+      "summit-retail@company.com",
+      "s3://northstar-backups/customer-platform/weekly/segment-42-20260426.tar.zst"
+    ],
+    "records": [
+      {
+        "system": "backup_service",
+        "resource_id": "backup_9291",
+        "present": true,
+        "category": "BACKUP_ARCHIVE",
+        "pii": {
+          "email": "bluepeakco@outlook.com"
+        },
+        "keys": [
+          "bluepeakco@outlook.com"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": true
+      },
+      {
+        "system": "backup_service",
+        "resource_id": "backup_9288",
+        "present": true,
+        "category": "BACKUP_ARCHIVE",
+        "pii": {
+          "email": "miller.logistics@company.com"
+        },
+        "keys": [
+          "miller.logistics@company.com"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": true
+      },
+      {
+        "system": "backup_service",
+        "resource_id": "backup_9287",
+        "present": true,
+        "category": "BACKUP_ARCHIVE",
+        "pii": {
+          "email": "areed1433@gmail.com"
+        },
+        "keys": [
+          "areed1433@gmail.com"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": true
+      },
+      {
+        "system": "backup_service",
+        "resource_id": "backup_9286",
+        "present": true,
+        "category": "BACKUP_ARCHIVE",
+        "pii": {
+          "email": "summit-retail@company.com"
+        },
+        "keys": [
+          "summit-retail@company.com"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": true
+      }
+    ]
+  },
+  "security_audit_explorer_20260905.png": {
+    "summary": "Sentinel 'Account events' view in Northstar Shop's production workspace, filtered to subject user_03 for 18–26 Aug 2026 UTC. It shows 6 signed security audit events in partition 2026-Q3, all with valid integrity: password changed (18 Aug), login from new device (20 Aug), email change confirmed (22 Aug), recovery challenge completed (24 Aug), session revoked (25 Aug) and account closure recorded by an automated workflow (25 Aug 04:03). The raw-event panel shows audit_record_003 (account_closure_recorded, subject user_03, signature valid, journal 2026-Q3).",
+    "references": [
+      "user_03",
+      "audit_record_001",
+      "audit_record_002",
+      "audit_record_003",
+      "audit_record_004",
+      "audit_record_005",
+      "audit_record_006"
+    ],
+    "records": [
+      {
+        "system": "security_service",
+        "resource_id": "audit_record_003",
+        "present": true,
+        "category": "SECURITY_AUDIT_LOG",
+        "pii": {
+          "user_ref": "user_03"
+        },
+        "keys": [
+          "user_03"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      },
+      {
+        "system": "security_service",
+        "resource_id": "audit_record_002",
+        "present": true,
+        "category": "SECURITY_AUDIT_LOG",
+        "pii": {
+          "user_ref": "user_03"
+        },
+        "keys": [
+          "user_03"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      },
+      {
+        "system": "security_service",
+        "resource_id": "audit_record_001",
+        "present": true,
+        "category": "SECURITY_AUDIT_LOG",
+        "pii": {
+          "user_ref": "user_03"
+        },
+        "keys": [
+          "user_03"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      },
+      {
+        "system": "security_service",
+        "resource_id": "audit_record_006",
+        "present": true,
+        "category": "SECURITY_AUDIT_LOG",
+        "pii": {
+          "user_ref": "user_03"
+        },
+        "keys": [
+          "user_03"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      },
+      {
+        "system": "security_service",
+        "resource_id": "audit_record_005",
+        "present": true,
+        "category": "SECURITY_AUDIT_LOG",
+        "pii": {
+          "user_ref": "user_03"
+        },
+        "keys": [
+          "user_03"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      },
+      {
+        "system": "security_service",
+        "resource_id": "audit_record_004",
+        "present": true,
+        "category": "SECURITY_AUDIT_LOG",
+        "pii": {
+          "user_ref": "user_03"
+        },
+        "keys": [
+          "user_03"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      }
+    ]
+  },
+  "deleted_account_reference_20260310.png": {
+    "summary": "Customer Reference Registry page for customer key user_17 (Retained reference, owner team Account Platform, eu-west). It was created 11 Jan 2024 08:42 UTC and last updated 10 Mar 2026 07:18 UTC. It lists 4 active linked records: order ORD-20263245, support cases CS-3245 and CS-3378, and finance record FIN-7742. The history and activity panels show when each link was added and that metadata was reviewed. No resource ids of the listed types are displayed.",
+    "references": [
+      "user_17",
+      "ORD-20263245",
+      "CS-3245",
+      "CS-3378",
+      "FIN-7742"
+    ],
+    "records": []
+  },
+  "object_storage_browser_20260213.png": {
+    "summary": "Nimbus Object Storage console for bucket northstar-customer-data (eu-west-1, prefix support-attachments/2026/02), captured 13 Feb 2026 08:00 UTC. It lists 8 objects, all in Standard storage class: delivery confirmations, return labels, an invoice, a parcel damage photo and two customer export zips. The detail panel for delivery_confirmation_19.pdf shows 684 KB, version v3, application/pdf, AES-256 encryption, uploader support-service and modified 12 Feb 2026 18:42 UTC. Its activity runs v1 created 18:38, v2 upload complete 18:39, v3 metadata update 18:42. No explicit object_N resource ids are shown.",
+    "references": [
+      "delivery_confirmation_19.pdf",
+      "delivery_confirmation_20.pdf",
+      "return_label_4821.pdf",
+      "return_label_4876.pdf",
+      "invoice_NS-10493.pdf",
+      "parcel_damage_7713.jpg",
+      "customer_export_2026-02-10.zip",
+      "customer_export_2026-02-12.zip"
+    ],
+    "records": []
+  },
+  "security_retention_extract.pdf": {
+    "summary": "Signed compliance journal extract (reference CJX-20260905-0630) from Northstar Shop. It shows security audit record audit_record_003 for subject user_03, recording an account closure performed by the automated account workflow on 25 Aug 2026, retained until 25 Aug 2027, in journal partition 2026-Q3 with a valid integrity seal.",
+    "references": [
+      "CJX-20260905-0630",
+      "audit_record_003",
+      "user_03"
+    ],
+    "records": [
+      {
+        "system": "security_service",
+        "resource_id": "audit_record_003",
+        "present": true,
+        "category": "SECURITY_AUDIT_LOG",
+        "pii": {
+          "user_ref": "user_03"
+        },
+        "keys": [
+          "user_03"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      }
+    ]
+  },
+  "delivery_correction_attachment.pdf": {
+    "summary": "Northstar Shop delivery address correction request from Priya Raman (support reference CS-4827 / support_001, received 18 Jun 2026) for order ORD-20264827. She asks to change the apartment number from 14B to 18B and to be called before delivery. The order is 2 stainless steel water bottles, carrier SwiftShip, preferred contact SMS. The continuation page shows the properties of the customer-uploaded file delivery_address_correction.pdf: 312 KB, ticket CS-4827, region ap-south, captured 12 Sep 2026, checksum prefix c90a42.",
+    "references": [
+      "CS-4827",
+      "support_001",
+      "priya.raman@gmail.com",
+      "ORD-20264827",
+      "delivery_address_correction.pdf"
+    ],
+    "records": [
+      {
+        "system": "support_platform",
+        "resource_id": "support_001",
+        "present": true,
+        "category": "SUPPORT_ATTACHMENT",
+        "pii": {
+          "name": "Priya Raman",
+          "email": "priya.raman@gmail.com",
+          "phone": "+91 98765 73142"
+        },
+        "keys": [
+          "priya.raman@gmail.com"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      }
+    ]
+  },
+  "marketing_profile_console.png": {
+    "summary": "Northstar Shop Audience Operations screen showing the live marketing profile marketing_001 for Soo-jin Park (sj.park@naver.com, +82 10-5837-9451). Market is South Korea, language Korean, email opt-in Yes, SMS opt-in No, last refreshed 15 Sep 2026 23:40 UTC. The profile is in the audience 'Returning customers — East Asia' with segments Repeat customer, Home & lifestyle and Mobile shopper. Last campaign was Autumn offers, with a 32.4% open rate and 6.8% click rate.",
+    "references": [
+      "marketing_001",
+      "sj.park@naver.com"
+    ],
+    "records": [
+      {
+        "system": "marketing_platform",
+        "resource_id": "marketing_001",
+        "present": true,
+        "category": "MARKETING_PROFILE",
+        "pii": {
+          "name": "Soo-jin Park",
+          "email": "sj.park@naver.com",
+          "phone": "+82 10-5837-9451"
+        },
+        "keys": [
+          "sj.park@naver.com"
+        ],
+        "status": "",
+        "enabled": null,
+        "restore_allowed": null
+      }
+    ]
+  }
+}

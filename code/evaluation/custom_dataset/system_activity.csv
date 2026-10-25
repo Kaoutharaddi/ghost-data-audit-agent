@@ -1,0 +1,8 @@
+activity_id,event_time,event_type,source_system,target_system,resource_id,reported_result,details
+activity_9001,2026-09-02T07:10:00Z,LINK_RESOURCE_IDENTITY,data_catalog,account_service,account_9101,SUCCESS,Data catalog linked account_9101 (account_9101) to ilka.brandt@posteo.de and user_901.
+activity_9002,2026-09-02T07:11:00Z,LINK_RESOURCE_IDENTITY,data_catalog,account_service,account_9102,SUCCESS,Data catalog linked account_9102 (account_9102) to tomas.echeverria@fastmail.com and user_902.
+activity_9003,2026-09-02T07:12:00Z,LINK_RESOURCE_IDENTITY,data_catalog,account_service,account_9103,SUCCESS,Data catalog linked account_9103 (account_9103) to noor.alkhatib@outlook.com and user_903.
+activity_9004,2026-09-03T09:30:00Z,DELETE_RECORD,deletion_worker,search_service,search_9102,SUCCESS,Policy action completed for search_9102.
+activity_9005,2026-09-03T09:36:00Z,RETAIN_RECORD,deletion_worker,legal_service,legal_hold_9103,SUCCESS,Policy action completed for legal_hold_9103.
+activity_9006,2026-09-05T06:00:00Z,SYNC_RECORD,integration_service,search_service,data_flow_9102,SUCCESS,Active connector repopulated downstream resource search_9102.
+activity_9007,2026-09-06T14:00:00Z,INDEX_RECORD,account_service,search_service,search_9904,SUCCESS,Customer search-index refresh processed search_9904.

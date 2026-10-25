@@ -1,0 +1,124 @@
+{
+  "exported_at": "2026-09-09T08:00:00Z",
+  "region": "global",
+  "source": "records_assurance_gateway",
+  "service_exports": {
+    "account_service": {
+      "profile_lookups": [
+        {
+          "observed_at": "2026-09-09T07:20:00Z",
+          "profile": null,
+          "resource_id": "account_9101",
+          "status_code": 404
+        },
+        {
+          "observed_at": "2026-09-09T07:21:00Z",
+          "profile": null,
+          "resource_id": "account_9102",
+          "status_code": 404
+        },
+        {
+          "observed_at": "2026-09-09T07:22:00Z",
+          "profile": null,
+          "resource_id": "account_9103",
+          "status_code": 404
+        },
+        {
+          "observed_at": "2026-09-09T07:23:00Z",
+          "profile": {
+            "customer_reference": "user_904",
+            "email": "r.quintero@proton.me",
+            "email_hash": "b9c246c06da8c4d49a66c10e2b668e91d108ca810ffa68d609f24dfa43a57b90",
+            "full_name": "Rafael Quintero",
+            "phone": "+57 310 552 9904"
+          },
+          "resource_id": "account_9104",
+          "status_code": 200
+        }
+      ]
+    },
+    "search_service": {
+      "index_queries": [
+        {
+          "hits": {
+            "documents": [
+              {
+                "customer_reference": null,
+                "display_name": "Ilka Brandt",
+                "email": "i.brandt.home@gmx.de",
+                "email_hash": null,
+                "phone": null,
+                "resource_id": "search_9101"
+              }
+            ],
+            "total": 1
+          },
+          "observed_at": "2026-09-09T07:30:00Z",
+          "query": "i.brandt.home@gmx.de",
+          "resource_id": "search_9101"
+        },
+        {
+          "hits": {
+            "documents": [
+              {
+                "customer_reference": null,
+                "display_name": "Tomás Echeverría",
+                "email": "tomas.echeverria@fastmail.com",
+                "email_hash": null,
+                "phone": null,
+                "resource_id": "search_9102"
+              }
+            ],
+            "total": 1
+          },
+          "observed_at": "2026-09-09T07:31:00Z",
+          "query": "tomas.echeverria@fastmail.com",
+          "resource_id": "search_9102"
+        },
+        {
+          "hits": {
+            "documents": [
+              {
+                "customer_reference": null,
+                "display_name": "Rafael Quintero",
+                "email": "r.quintero@proton.me",
+                "email_hash": null,
+                "phone": null,
+                "resource_id": "search_9904"
+              }
+            ],
+            "total": 1
+          },
+          "observed_at": "2026-09-09T07:32:00Z",
+          "query": "r.quintero@proton.me",
+          "resource_id": "search_9904"
+        }
+      ]
+    },
+    "export_service": {
+      "exports": [
+        {
+          "customer_reference": null,
+          "object_key": "exports/export_9101/customer_data.zip",
+          "observed_at": "2026-09-09T07:40:00Z",
+          "owner_email": "ilka.brandt@web.de",
+          "owner_phone": null,
+          "resource_id": "export_9101"
+        }
+      ]
+    },
+    "integration_service": {
+      "connectors": [
+        {
+          "connector_name": "storefront_search_sync",
+          "customer_email": "tomas.echeverria@fastmail.com",
+          "customer_reference": "user_902",
+          "enabled": true,
+          "last_delivery_status": "delivered",
+          "observed_at": "2026-09-09T07:50:00Z",
+          "resource_id": "data_flow_9102"
+        }
+      ]
+    }
+  }
+}

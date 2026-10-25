@@ -1,0 +1,109 @@
+{
+  "_about": "Structured facts from the 11 screenshots and 4 PDFs, keyed by file name; resource state only, no verdicts. Hand-written on 2026-10-24 by the coding agent (Claude Code, model claude-opus-5-5) during the development session: the agent viewed each PNG with the session's image-reading tool, read each PDF via `pdftotext -layout`, and typed this JSON by hand. No Anthropic API call was made and code/ghost/media.py was NOT used to produce it; token usage was not metered (estimates only, see code/evaluation/usage_report.md). Interpretive choices made by hand: object_19 categorized as SUPPORT_ATTACHMENT, the user_17 registry screen recorded as tombstone_17, no linking keys on marketing_001.",
+  "account_admin_console_20260926.png": {
+    "summary": "Customer Operations console: Haruka Sato (user_11, account_5762) live profile with email haruka.s1838@zoho.com, phone +81 90 7610 2507; support CS-8538 / support_9538.",
+    "records": [
+      {"system": "account_service", "resource_id": "account_5762", "present": true, "category": "USER_PROFILE",
+       "pii": {"name": "Haruka Sato", "email": "haruka.s1838@zoho.com", "phone": "+81 90 7610 2507", "user_ref": "user_11"},
+       "keys": ["user_11", "haruka.s1838@zoho.com"]}
+    ]
+  },
+  "analytics_profile_view_20260713.png": {
+    "summary": "Pulse Analytics user view: Omar Darwish, user_20, analytics_7438, darwish.omar@icloud.com, event timeline still attributed.",
+    "records": [
+      {"system": "analytics_platform", "resource_id": "analytics_7438", "present": true, "status": "IDENTIFIABLE", "category": "ANALYTICS_PROFILE",
+       "pii": {"name": "Omar Darwish", "email": "darwish.omar@icloud.com", "user_ref": "user_20"},
+       "keys": ["user_20", "darwish.omar@icloud.com"]}
+    ]
+  },
+  "backup_restore_console_20260429.png": {
+    "summary": "Vault Recovery Manager: archive backup_9287 for account areed1433@gmail.com, eu-west-1, created 26 Apr 2026, retention end 26 Jul 2026, healthy and restorable (no restore block shown).",
+    "records": [
+      {"system": "backup_service", "resource_id": "backup_9287", "present": true, "restore_allowed": true, "category": "BACKUP_ARCHIVE",
+       "pii": {"email": "areed1433@gmail.com"}, "keys": ["areed1433@gmail.com"]}
+    ]
+  },
+  "connector_management_console_20260807.png": {
+    "summary": "BridgeOps connections at 07 Aug 2026 08:00 UTC: data_flow_1121 (selector jain.aditi@gmail.com) and data_flow_9846 (selector lucia-torres@gmail.com) both continuous sync to customer_analytics_warehouse and healthy.",
+    "records": [
+      {"system": "integration_service", "resource_id": "data_flow_1121", "present": true, "enabled": true, "category": "DATA_FLOW",
+       "pii": {"email": "jain.aditi@gmail.com"}, "keys": ["jain.aditi@gmail.com"]},
+      {"system": "integration_service", "resource_id": "data_flow_9846", "present": true, "enabled": true, "category": "DATA_FLOW",
+       "pii": {"email": "lucia-torres@gmail.com"}, "keys": ["lucia-torres@gmail.com"]}
+    ]
+  },
+  "customer_export_console_20260618.png": {
+    "summary": "Customer Download Center: export_1260 (customer_export_1260.zip) owned by ingrid.dahl@outlook.com, Ready, created 18 Jun 2026 06:42 UTC, expires 25 Jun 2026.",
+    "records": [
+      {"system": "export_service", "resource_id": "export_1260", "present": true, "category": "USER_EXPORT",
+       "pii": {"email": "ingrid.dahl@outlook.com"}, "keys": ["ingrid.dahl@outlook.com"]}
+    ]
+  },
+  "deleted_account_reference_20260310.png": {
+    "summary": "Customer Reference Registry: retained reference user_17 (customer key) with linked orders/support/finance records; no name, email or phone displayed.",
+    "records": [
+      {"system": "identity_service", "resource_id": "tombstone_17", "present": true, "status": "REDACTED", "category": "ACCOUNT_TOMBSTONE",
+       "pii": {}, "keys": ["user_17"]}
+    ]
+  },
+  "marketing_profile_console.png": {
+    "summary": "Audience Operations: marketing_001 live marketing profile (Soo-jin Park, sj.park@naver.com, +82 10-5837-9451), last refreshed 15 Sep 2026 23:40 UTC.",
+    "records": [
+      {"system": "marketing_platform", "resource_id": "marketing_001", "present": true, "category": "MARKETING_PROFILE",
+       "pii": {"name": "Soo-jin Park", "email": "sj.park@naver.com", "phone": "+82 10-5837-9451"}, "keys": []}
+    ]
+  },
+  "object_storage_browser_20260213.png": {
+    "summary": "Nimbus Object Storage bucket northstar-customer-data/support-attachments/2026/02 captured 13 Feb 2026: delivery_confirmation_19.pdf (v3, uploaded by support-service, modified 12 Feb 2026 18:42) still stored.",
+    "records": [
+      {"system": "object_storage", "resource_id": "object_19", "present": true, "category": "SUPPORT_ATTACHMENT", "hint": "attachment",
+       "pii": {"file": "delivery_confirmation_19.pdf"}, "keys": []}
+    ]
+  },
+  "search_index_inspector_20260901.png": {
+    "summary": "Search Console 01 Sep 2026 06:00 UTC, query email:g.silva76@gmail.com: search_428 (Gabriel Silva, g.silva76@gmail.com, user_13) and decoy search_1874 (g.silva76.jr@gmail.com, no reference).",
+    "records": [
+      {"system": "search_service", "resource_id": "search_428", "present": true, "category": "SEARCH_INDEX_ENTRY",
+       "pii": {"name": "Gabriel Silva", "email": "g.silva76@gmail.com", "user_ref": "user_13"}, "keys": ["user_13", "g.silva76@gmail.com"]},
+      {"system": "search_service", "resource_id": "search_1874", "present": true, "category": "SEARCH_INDEX_ENTRY",
+       "pii": {"email": "g.silva76.jr@gmail.com"}, "keys": ["g.silva76.jr@gmail.com"]}
+    ]
+  },
+  "security_audit_explorer_20260905.png": {
+    "summary": "Sentinel account events for subject user_03 (18-26 Aug 2026): audit_record_001..006, all signed/valid; audit_record_003 is the account closure record.",
+    "records": [
+      {"system": "security_service", "resource_id": "audit_record_003", "present": true, "category": "SECURITY_AUDIT_LOG", "keys": ["user_03"]}
+    ]
+  },
+  "support_ticket_console_20260524.png": {
+    "summary": "Helpline Console CS-5034 support_1034: conversation between customer Kofi Agyeman (kagyeman8947@fastmail.com) and agent Maya Chen about order ORD-20265034; customer identifiers still displayed.",
+    "records": [
+      {"system": "support_platform", "resource_id": "support_1034", "present": true, "status": "IDENTIFIABLE", "category": "SUPPORT_MESSAGE", "hint": "message",
+       "pii": {"name": "Kofi Agyeman", "email": "kagyeman8947@fastmail.com"}, "keys": ["kagyeman8947@fastmail.com"]}
+    ]
+  },
+  "account_history_report_20260718.pdf": {
+    "summary": "Customer statement NST-2026-0718-1842 for Ingrid Dahl (user_18, ingrid.dahl@outlook.com), order ORD-20261260, delivery address in Trondheim.",
+    "records": [
+      {"system": "export_service", "resource_id": "export_1842", "present": true, "category": "USER_EXPORT",
+       "pii": {"name": "Ingrid Dahl", "email": "ingrid.dahl@outlook.com", "user_ref": "user_18"}, "keys": ["user_18", "ingrid.dahl@outlook.com", "NST-2026-0718-1842"]}
+    ]
+  },
+  "delivery_correction_attachment.pdf": {
+    "summary": "Delivery address correction request CS-4827 / support_001 uploaded by customer Priya Raman (priya.raman@gmail.com, +91 98765 73142); attachment captured 12 Sep 2026.",
+    "records": [
+      {"system": "support_platform", "resource_id": "support_001", "present": true, "category": "SUPPORT_ATTACHMENT", "hint": "attachment",
+       "pii": {"name": "Priya Raman", "email": "priya.raman@gmail.com", "phone": "+91 98765 73142"}, "keys": ["priya.raman@gmail.com"]}
+    ]
+  },
+  "legal_retention_register_20260529.pdf": {
+    "summary": "Finance register of disputed orders and tax records (May 2026): ORD-20264118 user_08, ORD-20264207 user_12, ORD-20264319 user_17, ORD-20264402 user_21, ORD-20264511 user_24, ORD-20264600 user_29; each retained until 2033. No resource ids.",
+    "records": []
+  },
+  "security_retention_extract.pdf": {
+    "summary": "Compliance journal extract CJX-20260905-0630: audit_record_003 for subject user_03, account closure recorded 25 Aug 2026, retain until 25 Aug 2027, integrity seal valid.",
+    "records": [
+      {"system": "security_service", "resource_id": "audit_record_003", "present": true, "category": "SECURITY_AUDIT_LOG", "keys": ["user_03"]}
+    ]
+  }
+}

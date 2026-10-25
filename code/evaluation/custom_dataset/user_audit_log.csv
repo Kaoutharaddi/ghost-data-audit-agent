@@ -1,0 +1,5 @@
+audit_id,user_id,event_time,field_name,old_value,new_value
+audit_9001,user_901,2025-11-14T09:20:00Z,email,ilka.brandt@web.de,i.brandt.home@gmx.de
+audit_9002,user_901,2025-11-14T09:20:00Z,email_hash,6530bc3a1c31326a94287eb81c2a16b3c6023a3403184777c6c191cfd7d118b4,10caf21fc1cb71d15115db9191158437e2cd37f2b389edb75ec8e83f6c3c76ef
+audit_9003,user_901,2026-03-02T10:15:00Z,email,i.brandt.home@gmx.de,ilka.brandt@posteo.de
+audit_9004,user_901,2026-03-02T10:15:00Z,email_hash,10caf21fc1cb71d15115db9191158437e2cd37f2b389edb75ec8e83f6c3c76ef,3b0295311eef7f62f08eb69e4150940d48c8a1d3ec451f9eabdf2026b6d4270d

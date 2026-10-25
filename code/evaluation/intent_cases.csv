@@ -1,0 +1,19 @@
+id,language,text,expected,note
+ic01,en,Please delete my account and all the personal data you hold about me.,DELETION,plain deletion
+ic02,es,"No borréis mi cuenta, solo quiero dejar de recibir correos de promociones.",NOT_DELETION,trap: refusal + marketing opt-out
+ic03,en,"I want a copy of my data first; please don't delete anything yet.",NOT_DELETION,trap: access + refusal
+ic04,fr,Merci de supprimer définitivement mon compte et mes informations personnelles.,DELETION,french deletion
+ic05,de,"Bitte löschen Sie mein Konto nicht, ich möchte nur meine Telefonnummer ändern.",NOT_DELETION,trap: german refusal + correction
+ic06,pt,Quero uma cópia dos meus dados pessoais num formato legível.,NOT_DELETION,access/export
+ic07,ja,アカウントを削除して、個人情報もすべて消してください。,DELETION,japanese deletion
+ic08,ko,계정은 유지하고 싶습니다. 마케팅 이메일만 그만 보내 주세요.,NOT_DELETION,trap: korean keep account + opt-out
+ic09,en,"Close my account. You may keep invoices if the law requires it, but erase everything else.",DELETION,deletion with legal retention
+ic10,it,Vorrei cancellare il mio account e tutti i dati collegati.,DELETION,italian deletion
+ic11,en,"I was told my deletion was finished, but I still receive emails. Please finish removing my profile.",DELETION,follow-up on incomplete deletion
+ic12,es,¿Qué datos personales tenéis sobre mí? No quiero borrar nada.,NOT_DELETION,trap: access + refusal
+ic13,en,"Delete the old shipping address on my profile, I'm keeping the account.",NOT_DELETION,trap: deletion verb for one field
+ic14,nl,Verwijder alstublieft mijn account en al mijn gegevens.,DELETION,dutch deletion
+ic15,en,"Unsubscribe me from the newsletter, but do not close my account.",NOT_DELETION,trap: opt-out + refusal
+ic16,en,"I have changed my email address twice since I signed up. Please erase my account and everything linked to any of my old addresses too.",DELETION,deletion naming historical identifiers (text reused by custom case case_9101)
+ic17,pt,"Por favor, apaguem a minha conta e todos os meus dados pessoais, incluindo as cópias noutros sistemas.",DELETION,portuguese deletion incl. copies (text reused by custom case case_9102)
+ic18,fr,"Je vous demande de supprimer mon compte. Si la loi vous oblige à conserver certains documents, gardez uniquement ceux-là.",DELETION,french deletion with legal retention (text reused by custom case case_9103)

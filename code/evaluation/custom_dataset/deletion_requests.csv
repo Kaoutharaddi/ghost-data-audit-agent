@@ -1,0 +1,4 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+case_9101,ilka.brandt@web.de,2026-09-01T09:00:00Z,COMPLETE,2026-09-03T10:00:00Z,2026-09-10T12:00:00Z,I have changed my email address twice since I signed up. Please erase my account and everything linked to any of my old addresses too.
+case_9102,tomas.echeverria@fastmail.com,2026-09-01T09:00:00Z,COMPLETE,2026-09-03T10:00:00Z,2026-09-10T12:00:00Z,"Por favor, apaguem a minha conta e todos os meus dados pessoais, incluindo as cópias noutros sistemas."
+case_9103,noor.alkhatib@outlook.com,2026-09-01T09:00:00Z,COMPLETE,2026-09-03T10:00:00Z,2026-09-10T12:00:00Z,"Je vous demande de supprimer mon compte. Si la loi vous oblige à conserver certains documents, gardez uniquement ceux-là."

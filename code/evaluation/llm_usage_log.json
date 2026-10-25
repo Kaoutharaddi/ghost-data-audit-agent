@@ -1,0 +1,323 @@
+{
+  "runs": [
+    {
+      "started": "2026-10-24T19:45:52Z",
+      "finished": null,
+      "purpose": "intent fallback",
+      "input": "dataset/deletion_requests.csv (run by compare_media.py --impact)",
+      "billed_calls": 1,
+      "cache_hits": null,
+      "note": "Reconstructed after the fact: this run predates per-call logging and its usage file was overwritten by a later run. The call is proven by the cache entry 37744ddf... (case_538, answer OTHER); its token counts were not recorded. 'started' is only bounded by the media run on the same session.",
+      "calls": [
+        {
+          "at": null,
+          "model": "claude-opus-5-5",
+          "prompt_sha256": "37744ddf91e470344cde5204473c606da658575346b971f3a975a8f10694037b",
+          "stop_reason": "end_turn",
+          "input_tokens": null,
+          "output_tokens": null,
+          "cost_usd": null,
+          "case_id": "case_538"
+        }
+      ]
+    },
+    {
+      "started": "2026-10-24T20:02:24Z",
+      "finished": "2026-10-24T20:02:25Z",
+      "purpose": "intent fallback",
+      "input": "dataset/deletion_requests.csv",
+      "output": "../../../../var/folders/8x/t0lwznq558dcy650bv2wg9z80000gn/T/tmphpn9mhlp/eval_cache.csv",
+      "billed_calls": 0,
+      "cache_hits": 1,
+      "calls": []
+    },
+    {
+      "started": "2026-10-24T20:02:25Z",
+      "finished": "2026-10-24T20:02:25Z",
+      "purpose": "intent fallback",
+      "input": "dataset/sample_deletion_requests.csv",
+      "output": "../../../../var/folders/8x/t0lwznq558dcy650bv2wg9z80000gn/T/tmphpn9mhlp/sample_cache.csv",
+      "billed_calls": 0,
+      "cache_hits": 0,
+      "calls": []
+    },
+    {
+      "started": "2026-10-24T20:02:25Z",
+      "finished": "2026-10-24T20:02:26Z",
+      "purpose": "intent fallback",
+      "input": "dataset/deletion_requests.csv",
+      "output": "../../../../var/folders/8x/t0lwznq558dcy650bv2wg9z80000gn/T/tmphpn9mhlp/eval_api.csv",
+      "billed_calls": 0,
+      "cache_hits": 1,
+      "calls": []
+    },
+    {
+      "started": "2026-10-24T20:02:26Z",
+      "finished": "2026-10-24T20:02:26Z",
+      "purpose": "intent fallback",
+      "input": "dataset/sample_deletion_requests.csv",
+      "output": "../../../../var/folders/8x/t0lwznq558dcy650bv2wg9z80000gn/T/tmphpn9mhlp/sample_api.csv",
+      "billed_calls": 0,
+      "cache_hits": 0,
+      "calls": []
+    },
+    {
+      "started": "2026-10-24T20:33:22Z",
+      "finished": "2026-10-24T20:33:22Z",
+      "purpose": "intent fallback",
+      "input": "dataset/deletion_requests.csv",
+      "output": "../../../../private/tmp/claude-501/-Users-kaddi-Desktop-hackerrank-orchestrate-october26/96e4f249-d3bf-4a6e-81be-30f0d174da97/scratchpad/withkey.csv",
+      "billed_calls": 0,
+      "cache_hits": 2,
+      "calls": []
+    },
+    {
+      "started": "2026-10-25T21:36:10Z",
+      "finished": "2026-10-25T21:36:59Z",
+      "purpose": "intent classification",
+      "input": "evaluation/intent_eval.py",
+      "billed_calls": 22,
+      "cache_hits": 568,
+      "calls": [
+        {
+          "at": "2026-10-25T21:36:13Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 1978,
+          "output_tokens": 349,
+          "cost_usd": 0.000372
+        },
+        {
+          "at": "2026-10-25T21:36:19Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 1772,
+          "output_tokens": 1006,
+          "cost_usd": 0.00068
+        },
+        {
+          "at": "2026-10-25T21:36:20Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 10,
+          "stop_reason": "end_turn",
+          "input_tokens": 1198,
+          "output_tokens": 191,
+          "cost_usd": 0.000215
+        },
+        {
+          "at": "2026-10-25T21:36:22Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2086,
+          "output_tokens": 349,
+          "cost_usd": 0.000383
+        },
+        {
+          "at": "2026-10-25T21:36:24Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2153,
+          "output_tokens": 349,
+          "cost_usd": 0.00039
+        },
+        {
+          "at": "2026-10-25T21:36:26Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2063,
+          "output_tokens": 349,
+          "cost_usd": 0.000381
+        },
+        {
+          "at": "2026-10-25T21:36:28Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2065,
+          "output_tokens": 349,
+          "cost_usd": 0.000381
+        },
+        {
+          "at": "2026-10-25T21:36:30Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2040,
+          "output_tokens": 349,
+          "cost_usd": 0.000379
+        },
+        {
+          "at": "2026-10-25T21:36:32Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2043,
+          "output_tokens": 349,
+          "cost_usd": 0.000379
+        },
+        {
+          "at": "2026-10-25T21:36:34Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2069,
+          "output_tokens": 349,
+          "cost_usd": 0.000381
+        },
+        {
+          "at": "2026-10-25T21:36:36Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2050,
+          "output_tokens": 349,
+          "cost_usd": 0.00038
+        },
+        {
+          "at": "2026-10-25T21:36:39Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2028,
+          "output_tokens": 349,
+          "cost_usd": 0.000377
+        },
+        {
+          "at": "2026-10-25T21:36:41Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2023,
+          "output_tokens": 349,
+          "cost_usd": 0.000377
+        },
+        {
+          "at": "2026-10-25T21:36:43Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2050,
+          "output_tokens": 349,
+          "cost_usd": 0.00038
+        },
+        {
+          "at": "2026-10-25T21:36:45Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2040,
+          "output_tokens": 349,
+          "cost_usd": 0.000379
+        },
+        {
+          "at": "2026-10-25T21:36:47Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2052,
+          "output_tokens": 349,
+          "cost_usd": 0.00038
+        },
+        {
+          "at": "2026-10-25T21:36:49Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2057,
+          "output_tokens": 349,
+          "cost_usd": 0.00038
+        },
+        {
+          "at": "2026-10-25T21:36:51Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2059,
+          "output_tokens": 349,
+          "cost_usd": 0.00038
+        },
+        {
+          "at": "2026-10-25T21:36:52Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2048,
+          "output_tokens": 349,
+          "cost_usd": 0.000379
+        },
+        {
+          "at": "2026-10-25T21:36:55Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 2070,
+          "output_tokens": 349,
+          "cost_usd": 0.000382
+        },
+        {
+          "at": "2026-10-25T21:36:57Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 20,
+          "stop_reason": "end_turn",
+          "input_tokens": 1859,
+          "output_tokens": 374,
+          "cost_usd": 0.000373
+        },
+        {
+          "at": "2026-10-25T21:36:59Z",
+          "model": "claude-haiku-5-5",
+          "purpose": "intent batch",
+          "items": 6,
+          "stop_reason": "end_turn",
+          "input_tokens": 1090,
+          "output_tokens": 114,
+          "cost_usd": 0.000166
+        }
+      ]
+    },
+    {
+      "started": "2026-10-25T21:36:59Z",
+      "finished": "2026-10-25T21:37:00Z",
+      "purpose": "intent classification",
+      "input": "dataset/deletion_requests.csv",
+      "output": "output.csv",
+      "billed_calls": 0,
+      "cache_hits": 1068,
+      "calls": []
+    }
+  ],
+  "totals": {
+    "runs": 8,
+    "billed_calls": 23,
+    "input_tokens": 42893,
+    "output_tokens": 7967,
+    "cost_usd": 0.008274,
+    "calls_without_metered_tokens": 1
+  }
+}
